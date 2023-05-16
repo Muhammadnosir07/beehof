@@ -1,0 +1,63 @@
+.nav_div{
+    border: 1px #F2F5F9;
+}
+.nav{
+    display: flex;
+    margin-top: 17px;
+    align-items: center;
+}
+.nav_left{
+    display: flex;
+    img{
+        margin-left: 65px;
+        height: 45px;
+    }
+    h2{
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34.6193px;
+        line-height: 42px;
+        color: #111111;
+    }
+    h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #263141;
+        margin-left: 10px;
+    }
+}
+.nav_right{
+    select{
+        margin-left: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    color: white;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    width: 180px;
+    height: 52px;
+    background: #FF4D4D;
+    }
+    input{
+        width: 441px;
+        height: 52px;
+        outline: none;
+        border: none;
+        background: #F2F5F9;
+        border-radius: 0px 8px 8px 0px;
+    }
+    button{
+        border: none;
+        justify-content: space-between;
+        width: 60px;
+        height: 52px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+}

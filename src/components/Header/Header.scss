@@ -1,0 +1,190 @@
+.header_div {
+
+  position: relative;
+}
+.header_inner{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transform: rotate(2deg);
+    background: #F2F5F9;
+} 
+.header {
+  padding-left: 65px;
+  position: relative;
+  z-index: 2;
+  margin-top: 120px;
+}
+.header_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 67px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0f1113;
+}
+.header_list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 90px;
+  li {
+    height: 180px;
+    padding-top: 20px;
+    img {
+      width: 124px;
+      height: 124px;
+      padding: 7px;
+      border-radius: 5px;
+      background-color: #fdfdfd;
+    }
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      padding-top: 10px;
+      padding-left: 10px;
+      line-height: 20px;
+      color: #263141;
+    }
+  }
+}
+.header_btn {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  padding-bottom: 20px;
+  button {
+    height: 45px;
+    margin-top: 52px;
+    width: 200px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 60px;
+    border: none;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    color: #7e8794;
+  }
+  button:hover {
+    color: red;
+  }
+}
+.swipper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img{
+    padding-top: 70px;
+    width: 184px;
+    height: 204px;
+  }
+}
+.cards {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  width: 524px;
+  height: 358px;
+  background: #fdfdfd;
+  border: 1px solid #f2f5f9;
+  border-radius: 12px;
+  h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #7e8794;
+  }
+  .swip_card{
+    display: flex;
+    justify-content: space-between;
+    h3{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #0F1113;
+      padding-left: 20px;
+    }
+    .icon{
+      margin-right: 20px;
+      border-radius: 100px;
+      width: 25px;
+    }
+    .icon1{
+      border-radius: 100px;
+      width: 25px;
+      padding-left: 120px;
+    }
+  }
+}
+.cards_spanWrapper {
+  margin-bottom: 80px;
+  height: 100px;
+  padding-right: 25px;
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #7e8794;
+  }
+  span {
+    width: 88.4px;
+    height: 4px;
+    background: #3912a5;
+    border-radius: 2px;
+    display: block;
+  }
+  .active {
+    background-color: #ff4d4d;
+  }
+}
+.cards_span {
+  height: 5 px;
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #7e8794;
+    top: 16px;
+    position: relative;
+  }
+  span {
+    width: 68.4px;
+    height: 4px;
+    background: #eceeef;
+    border-radius: 2px;
+    display: block;
+    margin: 2px;
+  }
+  div {
+    display: flex;
+    height: 0px;
+  }
+  .active {
+    background-color: #ff4d4d;
+  }
+}
+.cards_wrap{
+  display: flex;
+  padding-left: 60px;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  width: 1140px;
+  flex-wrap: wrap;
+  height: 800px;
+  padding-bottom: 50px;
+}
